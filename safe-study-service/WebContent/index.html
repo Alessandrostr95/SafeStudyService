@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="script.js"></script>
+    <title>SafeStudyService</title>
+  </head>
+
+  <body class="container">
+    <img src="./logo_TV.svg" alt="logo" class="img-fluid mx-auto d-block" />
+    <h2>Tor Vergata</h2>
+    <h1>Safe Study Service</h1>
+
+    <main>
+      <form class="text-center">
+        <label for="sceltaData">Scegli una data</label>
+        <input type="date" id="sceltaData" required />
+        <span class="validity"></span>
+        <button id="btSceltaData" type="submit" class="btn btn-outline-success">Submit</button>
+      </form>
+
+      <br>
+      <table id="mattina" class="table table-bordered shadow-lg p-3 mb-5 bg-white hidden">
+        <thead>
+          <tr>
+            <th scope="col">\</th>
+            <th scope="col">09:00</th>
+            <th scope="col">10:00</th>
+            <th scope="col">11:00</th>
+            <th scope="col">12:00</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+        <caption>Mattina</caption>
+      </table>
+
+      <table id="pomeriggio" class="table table-bordered shadow-lg p-3 mb-5 bg-white hidden">
+        <thead>
+          <tr>
+            <th scope="col">\</th>
+            <th scope="col">14:00</th>
+            <th scope="col">15:00</th>
+            <th scope="col">16:00</th>
+            <th scope="col">17:00</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+        <caption>Pomeriggio</caption>
+      </table>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+	id="WebApp_ID" version="4.0">
+	<display-name>safe-study-service</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<display-name>RESTAule</display-name>
+		<servlet-name>RESTAule</servlet-name>
+		<servlet-class>it.uniroma2.is.rest.RESTAule</servlet-class>
+		<init-param>
+			<param-name>ip</param-name>
+			<param-value>127.0.0.1</param-value>
+		</init-param>
+		<init-param>
+			<param-name>port</param-name>
+			<param-value>3306</param-value>
+		</init-param>
+		<init-param>
+			<param-name>database</param-name>
+			<param-value>progettois</param-value>
+		</init-param>
+		<init-param>
+			<param-name>user</param-name>
+			<param-value>IS</param-value>
+		</init-param>
+		<init-param>
+			<param-name>password</param-name>
+			<param-value>password</param-value>
+		</init-param>
+	</servlet>
+
+	<servlet>
+		<servlet-name>RESTPrenotazioni</servlet-name>
+		<servlet-class>it.uniroma2.is.rest.RESTPrenotazioni</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>RESTAule</servlet-name>
+		<url-pattern>/aule</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>RESTPrenotazioni</servlet-name>
+		<url-pattern>/prenotazioni</url-pattern>
+	</servlet-mapping>
+	<!-- Connessione al database che possono leggere tutte le servlets -->
+	<context-param>
+		<param-name>user</param-name>
+		<param-value>IS</param-value>
+	</context-param>
+	<context-param>
+		<param-name>password</param-name>
+		<param-value>password</param-value>
+	</context-param>
+	<context-param>
+		<param-name>database</param-name>
+		<param-value>progettois</param-value>
+	</context-param>
+</web-app>

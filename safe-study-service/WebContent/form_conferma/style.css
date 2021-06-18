@@ -1,0 +1,54 @@
+html {
+    width: 100%;
+    height: 100%;
+    background-image: url("./foto12.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+  
+body {
+    padding: 15px;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+}
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    body {
+      background-color: rgba(255, 255, 255, 0.5) !important;
+      backdrop-filter: blur(10px) !important;
+      -webkit-backdrop-filter: blur(10px) !important;
+    }
+}
+  
+img {
+    max-height: 200px !important;
+    margin-top: 50px;
+}
+  
+h1, h2, h3 {
+    text-align: center;
+}
+  
+main {
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+}
+
+/*
+input:invalid,   input:invalid:focus {
+    background: tomato;
+    border-color: darkred !important;
+}*/
+
+
+input {
+    max-width: 250px !important;
+    display: initial !important;
+}
+  
+.hidden {
+    display: none;
+}
+  
