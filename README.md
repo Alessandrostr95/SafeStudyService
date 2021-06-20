@@ -55,7 +55,7 @@ Il servizio dovrà quindi offrire:
 ------------
 
 
-##Sequence Diagram
+## Sequence Diagram
 
 ### Procedure di Scelta e Prenotazione
 
