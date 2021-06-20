@@ -9,8 +9,8 @@
 
 [TOCM]
 
+## Introduzione
 
-##Introduzione
 In questo anno così particolare, per colpa della pandemia globale, sono cambiate molte cose nel quotidiano modo di vivere. Nel contesto universitario, studenti e docenti hanno dovuto compiere sacrifici ed enormi adattamenti pur di continuare al meglio l’attività didattica.
 Da studenti possiamo dire che uno dei sacrifici più grandi è stato quello di rinunciare a un confronto diretto, faccia a faccia, con compagni di studio e docenti. Questo sacrificio non è roba da poco, in quanto il confronto tra le menti stimola molto la curiosità, la voglia di imparare nuove cose ed infiamma la passione per le materie.
 Nonostante informatici, più a nostro agio nell’interfacciarci con macchine piuttosto che con
