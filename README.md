@@ -14,7 +14,7 @@
 In questo anno così particolare, per colpa della pandemia globale, sono cambiate molte cose nel quotidiano modo di vivere. Nel contesto universitario, studenti e docenti hanno dovuto compiere sacrifici ed enormi adattamenti pur di continuare al meglio l’attività didattica.
 Da studenti possiamo dire che uno dei sacrifici più grandi è stato quello di rinunciare a un confronto diretto, faccia a faccia, con compagni di studio e docenti. Questo sacrificio non è roba da poco, in quanto il confronto tra le menti stimola molto la curiosità, la voglia di imparare nuove cose ed infiamma la passione per le materie.
 Nonostante informatici, più a nostro agio nell’interfacciarci con macchine piuttosto che con
-persone, siamo pur sempre uomini, e quindi, animali sociali :tw-1f61c:.
+persone, siamo pur sempre uomini, e quindi, animali sociali :stuck_out_tongue:.
 
 Adesso che la situazione pandemica è in apparente miglioramento, si iniziano lentamente a
 riprendere le varie attività. Alcuni corsi si svolgono in modalità mista, si stanno programmando esami da svolgere in presenza ed è di nuovo consentito l’accesso alle strutture universitarie, con le dovute precauzioni.
@@ -35,7 +35,7 @@ Nonostante la robustezza di questo metodo, scambiare informazioni a parole è an
 
 Abbiamo anche notato che ci sono parecchie aule libere che non vengono usate, e che si potrebbero sfruttarle al meglio adibendole per gli studenti.
 
-Chiaramente sorge il problema che più aule sono aperte, più è difficile controllare la densità di gente presente, per evitare conseguenti assembramenti :tw-1f637:.
+Chiaramente sorge il problema che più aule sono aperte, più è difficile controllare la densità di gente presente, per evitare conseguenti assembramenti :mask:.
 
 Perciò sarebbe utile un sistema che semplifichi e automatizzi questa ricerca di aule, e che nello stesso momento possa aiutare l’università a gestire la densità di studenti, cercando di garantire al meglio l’incolumità di tutti.
 
