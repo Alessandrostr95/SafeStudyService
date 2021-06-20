@@ -1,7 +1,7 @@
 # Safe Study Service Tor Vergata
 ![](https://upload.wikimedia.org/wikipedia/commons/1/1d/Logo-Universita-Roma-Tor-Vergata.png)
 
-![](https://github.com/Alessandrostr95/SafeStudyService/tree/main/safe-study-service) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
+![](https://github.com/Alessandrostr95/SafeStudyService/tree/main/safe-study-service)
 
 ------------
 
